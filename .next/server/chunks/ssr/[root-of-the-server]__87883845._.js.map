@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/page.tsx"],"sourcesContent":["import Home from \"./home/page\";\n\nexport default function HomePage() {\n  return (\n    <div>\n      <Home/>\n    </div>\n  );\n}\n"],"names":[],"mappings":"qVAAA,EAAA,EAAA,CAAA,CAAA,OAEe,SAAS,IACtB,MACE,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UACC,CAAA,EAAA,EAAA,GAAA,EAAC,EAAA,OAAI,CAAA,CAAA,IAGX"}

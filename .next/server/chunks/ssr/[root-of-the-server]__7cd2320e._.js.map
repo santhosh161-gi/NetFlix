@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/Show/page.tsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst page = () => {\r\n  return (\r\n    <div>page</div>\r\n  )\r\n}\r\n\r\nexport default page"],"names":[],"mappings":"sWAEa,IAET,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI"}

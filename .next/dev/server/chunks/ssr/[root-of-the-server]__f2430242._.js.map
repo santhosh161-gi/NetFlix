@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/Netflix/my-app/components/Home.tsx"],"sourcesContent":["import React from 'react'\r\nimport Navbar from './Navbar/Navbar'\r\n\r\n\r\nconst HomePage = () => {\r\n  return (\r\n   <Navbar />\r\n    \r\n  )\r\n}\r\n\r\nexport default HomePage"],"names":[],"mappings":";;;;;AACA;;;AAGA,MAAM,WAAW;IACf,qBACC,8OAAC,0IAAM;;;;;AAGV;uCAEe"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":["file:///D:/Netflix/my-app/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport HomePage from \"../components/Home\";\nexport default function Home() {\n  return (\n    <div>\n      <HomePage />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;;;AACe,SAAS;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC,8HAAQ;;;;;;;;;;AAGf"}}]
+}

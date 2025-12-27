@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/Netflix/my-app/app/Home/page.tsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst page = () => {\r\n  return (\r\n    <div>Home page</div>\r\n  )\r\n}\r\n\r\nexport default page"],"names":[],"mappings":";;;;;;AAEA,MAAM,OAAO;IACX,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe"}}]
+}

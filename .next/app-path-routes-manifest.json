@@ -1,0 +1,9 @@
+{
+  "/Movie/page": "/Movie",
+  "/Show/page": "/Show",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/home/page": "/home",
+  "/page": "/"
+}
