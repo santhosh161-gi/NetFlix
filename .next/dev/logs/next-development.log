@@ -1,1 +1,761 @@
-[00:00:03.522] Server  LOG     ✓ Ready in 2.7s
+[00:00:05.744] Server  LOG     ✓ Ready in 4.9s
+[00:00:12.055] Server  WARN    ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+[00:00:13.995] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//54BOXpX2ieTXMDzHymdDMnUIzYG.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:13.995] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:13.995] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fuacZLpnohQtLD0AhtCErcPVL98.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:13.996] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:13.996] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//yo41R39airbREp0PYfG30Ofxtgt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:13.996] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fiRDzpcJe7qz3yIR43hdXIE3NHv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:15.986] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kHHVzOGE23kavlvFOxeHaBmrgBJ.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:16.993] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//l8pwO23MCvqYumzozpxynCNfck1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:46.927] Server  LOG     ✓ Compiled in 1677ms
+[00:07:48.377] Server  LOG     ✓ Compiled in 123ms
+[00:07:49.902] Server  LOG     ✓ Compiled in 60ms
+[00:07:54.535] Server  LOG     ✓ Compiled in 40ms
+[00:07:56.971] Server  LOG     ✓ Compiled in 68ms
+[00:07:59.989] Server  LOG     ✓ Compiled in 58ms
+[00:08:08.688] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//2OHa6ukEq3Hce7Pc2kvu8wkmMFY.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:09.103] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//dHSz0tSFuO2CsXJ1CApSauP9Ncl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:09.292] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//ajzEWXl1z75Mx6lOj9lToHt5t6Z.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:09.516] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//sK3z0Naed3H1Wuh7a21YRVMxYqt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:22.193] Server  LOG     ✓ Compiled in 36ms
+[00:09:24.338] Server  LOG     ✓ Compiled in 43ms
+[00:09:26.532] Server  LOG     ✓ Compiled in 54ms
+[00:10:02.705] Server  LOG     ✓ Compiled in 38ms
+[00:10:04.497] Server  LOG     ✓ Compiled in 39ms
+[00:12:30.338] Server  LOG     ✓ Compiled in 70ms
+[00:13:47.837] Server  LOG     ✓ Compiled in 32ms
+[00:13:49.571] Server  LOG     ✓ Compiled in 46ms
+[00:13:55.779] Server  LOG     ✓ Compiled in 35ms
+[00:13:56.991] Server  LOG     ✓ Compiled in 59ms
+[00:14:32.938] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//6iXTBfCzWKlFCmHxu5oaeZ3an9G.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:55.252] Server  LOG     ✓ Compiled in 133ms
+[00:15:55.984] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[00:15:56.414] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:56.989] Server  LOG     ✓ Compiled in 80ms
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//l8pwO23MCvqYumzozpxynCNfck1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fuacZLpnohQtLD0AhtCErcPVL98.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//54BOXpX2ieTXMDzHymdDMnUIzYG.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//yo41R39airbREp0PYfG30Ofxtgt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fiRDzpcJe7qz3yIR43hdXIE3NHv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kHHVzOGE23kavlvFOxeHaBmrgBJ.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//2OHa6ukEq3Hce7Pc2kvu8wkmMFY.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//dHSz0tSFuO2CsXJ1CApSauP9Ncl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//ajzEWXl1z75Mx6lOj9lToHt5t6Z.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//sK3z0Naed3H1Wuh7a21YRVMxYqt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//6iXTBfCzWKlFCmHxu5oaeZ3an9G.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kVSUUWiXoNwq2wVCZ4Mcqkniqvr.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//9MJifKtwH3hSDPSqguyvFfgdmtA.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//tN3pTxkQoP96wtaEahYuRVdUWb2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7JNzw1tSZZEgsBw6lu0VfO2X2Ef.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:58.282] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//ebyxeBh56QNXxSJgTnmz7fXAlwk.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:59.437] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//1RgPyOhN4DRs225BGTlHJqCudII.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:21.785] Server  LOG     ✓ Compiled in 56ms
+[00:18:01.846] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//oD3Eey4e4Z259XLm3eD3WGcoJAh.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:40.896] Server  LOG     ✓ Compiled in 30ms
+[00:18:44.536] Server  LOG     ✓ Compiled in 75ms
+[00:18:55.243] Server  LOG     ✓ Compiled in 32ms
+[00:18:59.045] Server  LOG     ✓ Compiled in 57ms
+[00:19:22.046] Server  LOG     ✓ Compiled in 53ms
+[00:24:33.985] Browser ERROR   ./components/Navbar/Navbar.tsx:37:44
+Parsing ecmascript source code failed
+  35 |         </div>
+  36 |         <div>
+> 37 |             FiAlignCenter className='hover<:text-[#e50914]' size={20}/>
+     |                                            ^
+  38 |         </div>
+  39 |     </div>
+  40 |   )
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:24:36.195] Server  LOG     ✓ Compiled in 73ms
+[00:24:52.407] Server  LOG     ✓ Compiled in 91ms
+[00:26:06.538] Server  LOG     ✓ Compiled in 83ms
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//l8pwO23MCvqYumzozpxynCNfck1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fuacZLpnohQtLD0AhtCErcPVL98.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//54BOXpX2ieTXMDzHymdDMnUIzYG.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//yo41R39airbREp0PYfG30Ofxtgt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fiRDzpcJe7qz3yIR43hdXIE3NHv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kHHVzOGE23kavlvFOxeHaBmrgBJ.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//2OHa6ukEq3Hce7Pc2kvu8wkmMFY.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//dHSz0tSFuO2CsXJ1CApSauP9Ncl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//ajzEWXl1z75Mx6lOj9lToHt5t6Z.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//sK3z0Naed3H1Wuh7a21YRVMxYqt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//6iXTBfCzWKlFCmHxu5oaeZ3an9G.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//1RgPyOhN4DRs225BGTlHJqCudII.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kVSUUWiXoNwq2wVCZ4Mcqkniqvr.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//9MJifKtwH3hSDPSqguyvFfgdmtA.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//tN3pTxkQoP96wtaEahYuRVdUWb2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:26.990] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7JNzw1tSZZEgsBw6lu0VfO2X2Ef.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:27.981] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//nAxGnGHOsfzufThz20zgmRwKur3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:35.580] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:35.580] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//l8pwO23MCvqYumzozpxynCNfck1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:35.580] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:35.580] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fuacZLpnohQtLD0AhtCErcPVL98.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:35.580] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//54BOXpX2ieTXMDzHymdDMnUIzYG.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:35.580] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//yo41R39airbREp0PYfG30Ofxtgt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:35.580] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fiRDzpcJe7qz3yIR43hdXIE3NHv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:35.580] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kHHVzOGE23kavlvFOxeHaBmrgBJ.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:44.984] Browser ERROR   ./components/Navbar/Navbar.tsx:40:1
+Parsing ecmascript source code failed
+  38 |     </div>
+  39 |   )
+> 40 | }
+     | ^
+  41 |
+  42 | export default Navbar
+  43 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:27:46.993] Browser ERROR   ./components/Navbar/Navbar.tsx:41:1
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   )
+> 41 | }
+     | ^
+  42 |
+  43 | export default Navbar
+  44 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:27:47.997] Server  LOG     ✓ Compiled in 42ms
+[00:29:08.213] Server  LOG     ✓ Compiled in 36ms
+[00:29:10.030] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <svg stroke=... fill="none" strokeWidth=... viewBox=... strokeLinecap=... strokeLinejoin=... className=... onClick={function onClick} children=... style=... height=... width=... xmlns=...>
+                                                                                                                     ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:29:11.828] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <svg stroke=... fill="none" strokeWidth=... viewBox=... strokeLinecap=... strokeLinejoin=... className=... onClick={function onClick} children=... style=... height=... width=... xmlns=...>
+                                                                                                                     ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:29:13.985] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <svg stroke=... fill="none" strokeWidth=... viewBox=... strokeLinecap=... strokeLinejoin=... className=... onClick={function onClick} children=... style=... height=... width=... xmlns=...>
+                                                                                                                     ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:29:20.351] Server  ERROR   ⨯ ReferenceError: useState is not defined
+[00:29:40.081] Browser ERROR   uncaughtError: ReferenceError: useState is not defined
+[00:29:40.831] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:29:40.831] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:29:41.066] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:29:41.302] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:29:42.470] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:29:44.930] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:29:46.219] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:29:49.976] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:29:52.376] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:29:54.526] Server  LOG     ✓ Compiled in 66ms
+[00:29:55.012] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:29:59.014] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:01.021] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:01.999] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:03.858] Server  LOG     ✓ Compiled in 56ms
+[00:30:05.012] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:08.014] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:12.022] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:13.012] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:18.020] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:22.022] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |   return (
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:30.024] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |     const handleShowMenu = () => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:42.516] Server  ERROR   ⨯ ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |     const handleShowMenu = () => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+
+
+[00:30:42.641] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |     const handleShowMenu = () => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:43.163] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |     const handleShowMenu = () => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:43.314] Browser ERROR   uncaughtError: Error: ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |     const handleShowMenu = () => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+
+
+[00:30:43.498] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |     const handleShowMenu = () => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:43.498] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |     const handleShowMenu = () => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:43.498] Browser ERROR   ./components/Navbar/Navbar.tsx:7:10
+Ecmascript file had an error
+   5 | import Link from 'next/link';
+   6 | import { FiAlignCenter } from "react-icons/fi";
+>  7 | import { useState } from 'react';
+     |          ^^^^^^^^
+   8 | const Navbar = () => {
+   9 |     const [showMenu, setShowMenu] = useState(false);
+  10 |     const handleShowMenu = () => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:52.991] Browser ERROR   ./components/Navbar/Navbar.tsx:8:10
+Ecmascript file had an error
+   6 | import Link from 'next/link';
+   7 | import { FiAlignCenter } from "react-icons/fi";
+>  8 | import { useState } from 'react';
+     |          ^^^^^^^^
+   9 | const Navbar = () => {
+  10 |     const [showMenu, setShowMenu] = useState(false);
+  11 |     const handleShowMenu = () => {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/Navbar/Navbar.tsx
+    ./app/layout.tsx
+[00:30:55.833] Server  LOG     ✓ Compiled in 262ms
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//54BOXpX2ieTXMDzHymdDMnUIzYG.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fuacZLpnohQtLD0AhtCErcPVL98.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//l8pwO23MCvqYumzozpxynCNfck1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//yo41R39airbREp0PYfG30Ofxtgt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fiRDzpcJe7qz3yIR43hdXIE3NHv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//2OHa6ukEq3Hce7Pc2kvu8wkmMFY.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kHHVzOGE23kavlvFOxeHaBmrgBJ.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//sK3z0Naed3H1Wuh7a21YRVMxYqt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//ajzEWXl1z75Mx6lOj9lToHt5t6Z.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//dHSz0tSFuO2CsXJ1CApSauP9Ncl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//6iXTBfCzWKlFCmHxu5oaeZ3an9G.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kVSUUWiXoNwq2wVCZ4Mcqkniqvr.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//9MJifKtwH3hSDPSqguyvFfgdmtA.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//1RgPyOhN4DRs225BGTlHJqCudII.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//tN3pTxkQoP96wtaEahYuRVdUWb2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7JNzw1tSZZEgsBw6lu0VfO2X2Ef.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:57.509] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//nAxGnGHOsfzufThz20zgmRwKur3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:00.247] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:00.247] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//l8pwO23MCvqYumzozpxynCNfck1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:00.247] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:00.247] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fuacZLpnohQtLD0AhtCErcPVL98.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:00.247] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//54BOXpX2ieTXMDzHymdDMnUIzYG.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:00.247] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//yo41R39airbREp0PYfG30Ofxtgt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:00.247] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fiRDzpcJe7qz3yIR43hdXIE3NHv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:00.247] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kHHVzOGE23kavlvFOxeHaBmrgBJ.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:51.026] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:51.026] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//l8pwO23MCvqYumzozpxynCNfck1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:51.026] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:51.026] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fuacZLpnohQtLD0AhtCErcPVL98.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:51.026] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//54BOXpX2ieTXMDzHymdDMnUIzYG.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:51.026] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//yo41R39airbREp0PYfG30Ofxtgt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:51.026] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fiRDzpcJe7qz3yIR43hdXIE3NHv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:51.026] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kHHVzOGE23kavlvFOxeHaBmrgBJ.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:30.213] Server  LOG     ✓ Compiled in 67ms
+[00:33:41.420] Server  LOG     ✓ Compiled in 123ms
+[00:33:48.547] Browser WARN    Image with src "/netflix.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:33:48.547] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:48.547] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//54BOXpX2ieTXMDzHymdDMnUIzYG.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:48.547] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fuacZLpnohQtLD0AhtCErcPVL98.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:48.547] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//l8pwO23MCvqYumzozpxynCNfck1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:48.547] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:48.547] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//yo41R39airbREp0PYfG30Ofxtgt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:48.547] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fiRDzpcJe7qz3yIR43hdXIE3NHv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:48.547] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kHHVzOGE23kavlvFOxeHaBmrgBJ.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:48.547] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//2OHa6ukEq3Hce7Pc2kvu8wkmMFY.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:48.547] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//dHSz0tSFuO2CsXJ1CApSauP9Ncl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:08.708] Browser WARN    Image with src "/boys.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:34:27.815] Server  LOG     ✓ Compiled in 43ms
+[00:34:27.985] Browser ERROR   uncaughtError: ReferenceError: handleShowMenu is not defined
+[00:34:30.066] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:34:30.093] Server  LOG     ✓ Compiled in 39ms
+[00:34:42.331] Browser WARN    Image with src "/netflix.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:34:42.331] Browser WARN    Image with src "/boys.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:34:46.333] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//l8pwO23MCvqYumzozpxynCNfck1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.333] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.333] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.333] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fuacZLpnohQtLD0AhtCErcPVL98.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.333] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//54BOXpX2ieTXMDzHymdDMnUIzYG.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.333] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//yo41R39airbREp0PYfG30Ofxtgt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.333] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//fiRDzpcJe7qz3yIR43hdXIE3NHv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.333] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kHHVzOGE23kavlvFOxeHaBmrgBJ.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.334] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//2OHa6ukEq3Hce7Pc2kvu8wkmMFY.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.334] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//dHSz0tSFuO2CsXJ1CApSauP9Ncl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.334] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//ajzEWXl1z75Mx6lOj9lToHt5t6Z.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.334] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//6iXTBfCzWKlFCmHxu5oaeZ3an9G.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.334] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//sK3z0Naed3H1Wuh7a21YRVMxYqt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.334] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.334] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//1RgPyOhN4DRs225BGTlHJqCudII.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.334] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//kVSUUWiXoNwq2wVCZ4Mcqkniqvr.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:46.334] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//7JNzw1tSZZEgsBw6lu0VfO2X2Ef.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:28.824] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//9MJifKtwH3hSDPSqguyvFfgdmtA.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:28.824] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//tN3pTxkQoP96wtaEahYuRVdUWb2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:52.893] Server  LOG     ✓ Compiled in 34ms
+[00:37:08.812] Server  LOG     ✓ Compiled in 65ms
+[00:37:49.503] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//wbmxnsv41vsg5UEaNDlf203dOWw.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:38:06.868] Server  LOG     ✓ Compiled in 30ms
+[00:38:09.391] Server  LOG     ✓ Compiled in 46ms
+[00:38:27.483] Server  LOG     ✓ Compiled in 62ms
+[00:39:27.191] Server  LOG     ✓ Compiled in 69ms
+[00:39:33.079] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//c15BtJxCXMrISLVmysdsnZUPQft.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:39:39.313] Server  LOG     ✓ Compiled in 43ms
+[00:39:41.283] Server  LOG     ✓ Compiled in 49ms
+[00:39:48.069] Server  LOG     ✓ Compiled in 50ms
+[00:40:38.076] Browser WARN    Image with src "https://image.tmdb.org/t/p/original//ebyxeBh56QNXxSJgTnmz7fXAlwk.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

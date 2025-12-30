@@ -1,9 +1,6 @@
 module.exports = [
 "[project]/components/Dashboard/Gems.tsx [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-const e = new Error("Could not parse module '[project]/components/Dashboard/Gems.tsx'\n\nExpression expected");
-e.code = 'MODULE_UNPARSABLE';
-throw e;
 }),
 "[project]/app/home/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -33,7 +30,7 @@ const Home = ()=>{
                 className: "relative w-full h-[70vh] sm:h-[90vh] md:h-screen overflow-hidden",
                 children: [
                     !playVideo && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/placeholder.jpg",
+                        src: "/avengers.jpg",
                         alt: "Hulk",
                         fill: true,
                         priority: true,
@@ -56,7 +53,7 @@ const Home = ()=>{
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 flex items-center z-20",
+                        className: "absolute inset-0 flex items-center ",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "px-6 sm:px-10 md:px-20 max-w-2xl text-white",
                             children: [
@@ -73,7 +70,7 @@ const Home = ()=>{
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                     className: "text-3xl sm:text-4xl md:text-5xl font-bold",
-                                    children: "The Incredible Hulk"
+                                    children: "Avengers: Age of Ultron"
                                 }, void 0, false, {
                                     fileName: "[project]/app/home/page.tsx",
                                     lineNumber: 50,
@@ -89,7 +86,7 @@ const Home = ()=>{
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mt-3 text-slate-200",
-                                    children: "The Incredible Hulk is a 2008 American superhero film based on the Marvel Comics character the Hulk."
+                                    children: "Avengers: Age of Ultron is a 2015 American superhero film based on the Marvel Comics character Iron Man."
                                 }, void 0, false, {
                                     fileName: "[project]/app/home/page.tsx",
                                     lineNumber: 58,
@@ -147,7 +144,7 @@ const Home = ()=>{
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute bottom-0 w-full h-24 bg-gradient-to-t from-black to-transparent z-30"
+                        className: "absolute bottom-0 w-full h-24 bg-gradient-to-t from-black to-transparent "
                     }, void 0, false, {
                         fileName: "[project]/app/home/page.tsx",
                         lineNumber: 80,
@@ -160,7 +157,7 @@ const Home = ()=>{
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative bg-black/60 z-10",
+                className: "relative bg-black/60 z-10 pt-12 pb-24 md:pb-32 sm:pb-40 ",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Dashboard$2f$Gems$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         name: "Gems for you"

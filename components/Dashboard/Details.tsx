@@ -15,7 +15,7 @@ type Props = {
 const Details = ({ item, onClose }: Props) => {
   const modalRef = useRef<HTMLDivElement>(null);
 
-  // ✅ ESC key close
+  // ESC key close
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
@@ -29,26 +29,52 @@ const Details = ({ item, onClose }: Props) => {
 
   return (
     <div
-      className="fixed inset-0 z-[10000] bg-black/80 flex items-center justify-center"
+      className="fixed inset-0 z-[10000] bg-black/80 flex items-center justify-center px-2 sm:px-6"
       onClick={onClose}
     >
       <div
         ref={modalRef}
-        className="relative w-[80%] h-[80%] bg-[#181818] rounded-lg p-4"
         onClick={(e) => e.stopPropagation()}
+        className="
+          relative
+          w-full sm:w-[90%] lg:w-[80%]
+          max-h-[90vh]
+          bg-[#181818]
+          rounded-lg
+          overflow-y-auto
+        "
       >
         {/* CLOSE BUTTON */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-2xl font-bold text-white hover:scale-110 transition"
+          className="
+            sticky top-4 float-right mr-4
+            text-2xl font-bold text-white
+            hover:scale-110 transition
+            z-10
+          "
         >
           ✕
         </button>
 
         {/* CONTENT */}
-        <div className="w-full h-full flex flex-row gap-6 px-6">
-          {/* LEFT : POSTER */}
-          <div className="relative w-[300px] h-full flex-shrink-0">
+        <div
+          className="
+            flex flex-col lg:flex-row
+            gap-6
+            p-4 sm:p-6
+          "
+        >
+          {/* POSTER */}
+          <div
+            className="
+              relative
+              w-full lg:w-[300px]
+              h-[400px] sm:h-[450px] lg:h-[500px]
+              flex-shrink-0
+              mx-auto
+            "
+          >
             <Image
               src={
                 IMAGE_BASE && item.poster_path
@@ -61,31 +87,45 @@ const Details = ({ item, onClose }: Props) => {
             />
           </div>
 
-          {/* RIGHT : DETAILS */}
-          <div className="flex-1 flex flex-col text-white px-4 mt-10">
+          {/* DETAILS */}
+          <div className="flex-1 text-white lg:mt-10"  >
             {/* TITLE */}
-            <h2 className="text-4xl font-bold mb-2">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-2">
               {item.title || item.name}
             </h2>
 
             {/* DATE */}
-            <p className="text-sm text-gray-300 mb-4">
+            <p className="text-sm text-gray-400 mb-4">
               {item.release_date || item.first_air_date}
             </p>
 
             {/* OVERVIEW */}
-            <p className="text-base leading-relaxed text-gray-200">
+            <p className="text-sm sm:text-base leading-relaxed text-gray-200">
               {item.overview}
             </p>
 
             {/* ACTIONS */}
-            <div className="flex gap-4 mt-6">
-              <button className="bg-white text-black px-6 py-2 rounded font-semibold hover:bg-red-600">
+            <div className="flex flex-wrap gap-4 mt-6">
+              <button
+                className="
+                  bg-white text-black
+                  px-6 py-2
+                  rounded font-semibold
+                  hover:bg-red-600 hover:text-white
+                  transition
+                "
+              >
                 ▶ Play
               </button>
 
               <button
-                className="bg-gray-700 text-white px-6 py-2 rounded hover:bg-gray-600"
+                className="
+                  bg-gray-700 text-white
+                  px-6 py-2
+                  rounded
+                  hover:bg-gray-600
+                  transition
+                "
                 onClick={() => addToMyList(item)}
               >
                 + My List
@@ -99,6 +139,7 @@ const Details = ({ item, onClose }: Props) => {
 };
 
 export default Details;
+
 
 
 

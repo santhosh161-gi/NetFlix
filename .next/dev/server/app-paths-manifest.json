@@ -1,1 +1,7 @@
-{}
+{
+  "/Movie/page": "app/Movie/page.js",
+  "/MyList/page": "app/MyList/page.js",
+  "/Show/page": "app/Show/page.js",
+  "/home/page": "app/home/page.js",
+  "/page": "app/page.js"
+}

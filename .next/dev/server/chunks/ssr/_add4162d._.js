@@ -77,27 +77,27 @@ const Details = ({ item, onClose })=>{
     ]);
     if (!item.poster_path) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "fixed inset-0 z-[10000] bg-black/80 flex items-center justify-center",
+        className: "   fixed inset-0 z-[10000]   bg-black/80   flex items-center justify-center   px-2 sm:px-6   ",
         onClick: onClose,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             ref: modalRef,
-            className: "relative w-[80%] h-[80%] bg-[#181818] rounded-lg p-4",
             onClick: (e)=>e.stopPropagation(),
+            className: "   relative   w-full sm:w-[90%] lg:w-[80%]   max-h-[90vh]   bg-[#181818]   rounded-lg   overflow-y-auto   ",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                     onClick: onClose,
-                    className: "absolute top-4 right-4 text-2xl font-bold text-white hover:scale-110 transition",
+                    className: "   absolute top-4 right-4   text-2xl font-bold text-white   hover:scale-110 transition   z-10   ",
                     children: "✕"
                 }, void 0, false, {
                     fileName: "[project]/components/Movies/Details.tsx",
-                    lineNumber: 41,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full h-full flex gap-6 px-6",
+                    className: "   flex flex-col lg:flex-row   gap-6   p-4 sm:p-6   ",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative w-[300px] h-full flex-shrink-0",
+                            className: "   relative   w-full lg:w-[300px]   h-[420px] sm:h-[480px] lg:h-[500px]   flex-shrink-0   mx-auto   ",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: `${IMAGE_BASE}${item.poster_path}`,
                                 alt: item.title || item.name || "TMDB Item",
@@ -105,83 +105,83 @@ const Details = ({ item, onClose })=>{
                                 className: "object-contain rounded-lg"
                             }, void 0, false, {
                                 fileName: "[project]/components/Movies/Details.tsx",
-                                lineNumber: 51,
+                                lineNumber: 83,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/Movies/Details.tsx",
-                            lineNumber: 50,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex-1 flex flex-col text-white mt-10",
+                            className: "flex-1 text-white lg:mt-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl font-bold mb-2",
+                                    className: "text-2xl sm:text-3xl lg:text-4xl font-bold mb-2",
                                     children: item.title || item.name
                                 }, void 0, false, {
                                     fileName: "[project]/components/Movies/Details.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-gray-300 mb-4",
+                                    className: "text-sm text-gray-400 mb-4",
                                     children: item.release_date || item.first_air_date || "Unknown date"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Movies/Details.tsx",
-                                    lineNumber: 65,
+                                    lineNumber: 97,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-base text-gray-200 leading-relaxed max-w-3xl",
+                                    className: "text-sm sm:text-base text-gray-200 leading-relaxed max-w-3xl",
                                     children: item.overview
                                 }, void 0, false, {
                                     fileName: "[project]/components/Movies/Details.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 101,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex gap-4 mt-6",
+                                    className: "flex flex-wrap gap-4 mt-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "bg-white text-black px-6 py-2 rounded font-semibold hover:bg-red-600",
+                                            className: "   bg-white text-black   px-6 py-2   rounded font-semibold   hover:bg-red-600 hover:text-white   transition   ",
                                             children: "▶ Play"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Movies/Details.tsx",
-                                            lineNumber: 75,
+                                            lineNumber: 107,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             onClick: ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$myList$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["addToMyList"])(item),
-                                            className: "bg-gray-700 text-white px-6 py-2 rounded hover:bg-gray-600",
+                                            className: "   bg-gray-700 text-white   px-6 py-2   rounded   hover:bg-gray-600   transition   ",
                                             children: "+ My List"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Movies/Details.tsx",
-                                            lineNumber: 79,
+                                            lineNumber: 119,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Movies/Details.tsx",
-                                    lineNumber: 74,
+                                    lineNumber: 106,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Movies/Details.tsx",
-                            lineNumber: 60,
+                            lineNumber: 92,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Movies/Details.tsx",
-                    lineNumber: 48,
+                    lineNumber: 66,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/components/Movies/Details.tsx",
-            lineNumber: 35,
+            lineNumber: 40,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {

@@ -47,20 +47,22 @@ const Gems = ({ name }: { name: string }) => {
     }, 150);
   };
 
+  const isDesktop = () => window.innerWidth >= 768;
+
   return (
     <>
       {/* ================= ROW ================= */}
       <div className="w-full relative">
         {/* TITLE */}
-        <div className="px-6 sm:px-10 md:px-20 mb-2">
-          <h1 className="text-2xl font-bold text-white flex items-center gap-2">
+        <div className="px-4 sm:px-10 md:px-20 mb-2">
+          <h1 className="text-xl sm:text-2xl font-bold text-white flex items-center gap-2">
             {name} <FaAngleRight />
           </h1>
         </div>
 
         {/* CAROUSEL */}
-        <div className="relative px-6 sm:px-10 md:px-20 group">
-          {/* LEFT BUTTON */}
+        <div className="relative px-4 sm:px-10 md:px-20">
+          {/* LEFT BUTTON (VISIBLE ON MOBILE) */}
           <button
             onClick={() =>
               scrollRef.current?.scrollBy({
@@ -68,14 +70,15 @@ const Gems = ({ name }: { name: string }) => {
                 behavior: "smooth",
               })
             }
-            className="hidden md:flex absolute left-5 top-1/2 -translate-y-1/2 z-40
-                       bg-black/60 text-white p-2 rounded-full
-                       opacity-0 group-hover:opacity-100 transition"
+            className="
+              absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-40
+              bg-black/70 text-white p-2 rounded-full
+            "
           >
-            <FaChevronLeft size={22} />
+            <FaChevronLeft size={20} />
           </button>
 
-          {/* RIGHT BUTTON */}
+          {/* RIGHT BUTTON (VISIBLE ON MOBILE) */}
           <button
             onClick={() =>
               scrollRef.current?.scrollBy({
@@ -83,17 +86,23 @@ const Gems = ({ name }: { name: string }) => {
                 behavior: "smooth",
               })
             }
-            className="hidden md:flex absolute right-5 top-1/2 -translate-y-1/2 z-40
-                       bg-black/60 text-white p-2 rounded-full
-                       opacity-0 group-hover:opacity-100 transition"
+            className="
+              absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-40
+              bg-black/70 text-white p-2 rounded-full
+            "
           >
-            <FaChevronRight size={22} />
+            <FaChevronRight size={20} />
           </button>
 
-          {/* SCROLL CONTAINER */}
+          {/* ITEMS CONTAINER (NO OVERFLOW) */}
           <div
             ref={scrollRef}
-            className="flex gap-4 py-10 overflow-x-hidden"
+            className="
+              flex gap-3 sm:gap-4
+              py-6 sm:py-10
+              overflow-hidden
+              scroll-smooth
+            "
           >
             {movies.map((item) => {
               const imagePath =
@@ -104,19 +113,33 @@ const Gems = ({ name }: { name: string }) => {
               return (
                 <div
                   key={item.id}
-                  className="w-[250px] flex-shrink-0"
+                  className="w-[170px] sm:w-[220px] md:w-[250px] flex-shrink-0 cursor-pointer"
                   onMouseEnter={(e) => {
+                    if (!isDesktop()) return;
+
                     if (hoverTimeout.current)
                       clearTimeout(hoverTimeout.current);
+
                     setIsHovering(true);
                     setHoveredItem(item);
-                    setHoverRect(
-                      e.currentTarget.getBoundingClientRect()
-                    );
+                    setHoverRect(e.currentTarget.getBoundingClientRect());
                   }}
-                  onMouseLeave={closeHover}
+                  onMouseLeave={() => {
+                    if (!isDesktop()) return;
+                    closeHover();
+                  }}
                 >
-                  <div className="relative h-[140px] w-[240px] rounded-md overflow-hidden bg-black">
+                  <div
+                    className="
+                      relative
+                      h-[95px] sm:h-[120px] md:h-[140px]
+                      w-full
+                      rounded-md
+                      overflow-hidden
+                      bg-black
+                    "
+                    onClick={() => setSelectedItem(item)}
+                  >
                     <Image
                       src={imagePath}
                       alt={item.title || item.name || "TMDB item"}
@@ -131,7 +154,7 @@ const Gems = ({ name }: { name: string }) => {
         </div>
       </div>
 
-      {/* ================= HOVER PREVIEW ================= */}
+      {/* ================= HOVER PREVIEW (DESKTOP ONLY) ================= */}
       {hoveredItem &&
         hoverRect &&
         isHovering &&
@@ -142,7 +165,7 @@ const Gems = ({ name }: { name: string }) => {
               left: hoverRect.left,
               width: hoverRect.width,
             }}
-            className="fixed z-[9999] bg-[#181818] rounded-lg shadow-2xl scale-110"
+            className="fixed z-[9999] bg-[#181818] rounded-lg shadow-2xl scale-110 hidden md:block"
             onMouseEnter={() => {
               if (hoverTimeout.current)
                 clearTimeout(hoverTimeout.current);
@@ -216,6 +239,7 @@ const Gems = ({ name }: { name: string }) => {
 };
 
 export default Gems;
+
 
 
 

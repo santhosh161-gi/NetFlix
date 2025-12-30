@@ -69,7 +69,7 @@ const IMAGE_BASE = ("TURBOPACK compile-time value", "https://image.tmdb.org/t/p/
 const Details = ({ item, onClose })=>{
     _s();
     const modalRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    // ✅ ESC key close
+    // ESC key close
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Details.useEffect": ()=>{
             const handleEsc = {
@@ -87,27 +87,27 @@ const Details = ({ item, onClose })=>{
     ]);
     if (!item.poster_path) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "fixed inset-0 z-[10000] bg-black/80 flex items-center justify-center",
+        className: "fixed inset-0 z-[10000] bg-black/80 flex items-center justify-center px-2 sm:px-6",
         onClick: onClose,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             ref: modalRef,
-            className: "relative w-[80%] h-[80%] bg-[#181818] rounded-lg p-4",
             onClick: (e)=>e.stopPropagation(),
+            className: "   relative   w-full sm:w-[90%] lg:w-[80%]   max-h-[90vh]   bg-[#181818]   rounded-lg   overflow-y-auto   ",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                     onClick: onClose,
-                    className: "absolute top-4 right-4 text-2xl font-bold text-white hover:scale-110 transition",
+                    className: "   sticky top-4 float-right mr-4   text-2xl font-bold text-white   hover:scale-110 transition   z-10   ",
                     children: "✕"
                 }, void 0, false, {
                     fileName: "[project]/components/Dashboard/Details.tsx",
-                    lineNumber: 41,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full h-full flex flex-row gap-6 px-6",
+                    className: "   flex flex-col lg:flex-row   gap-6   p-4 sm:p-6   ",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative w-[300px] h-full flex-shrink-0",
+                            className: "   relative   w-full lg:w-[300px]   h-[400px] sm:h-[450px] lg:h-[500px]   flex-shrink-0   mx-auto   ",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: IMAGE_BASE && item.poster_path ? `${IMAGE_BASE}${item.poster_path}` : "/placeholder.jpg",
                                 alt: item.title || item.name || "TMDB Item",
@@ -115,77 +115,77 @@ const Details = ({ item, onClose })=>{
                                 className: "object-contain rounded-lg"
                             }, void 0, false, {
                                 fileName: "[project]/components/Dashboard/Details.tsx",
-                                lineNumber: 52,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/Dashboard/Details.tsx",
-                            lineNumber: 51,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex-1 flex flex-col text-white px-4 mt-10",
+                            className: "flex-1 text-white lg:mt-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl font-bold mb-2",
+                                    className: "text-2xl sm:text-3xl lg:text-4xl font-bold mb-2",
                                     children: item.title || item.name
                                 }, void 0, false, {
                                     fileName: "[project]/components/Dashboard/Details.tsx",
-                                    lineNumber: 67,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-gray-300 mb-4",
+                                    className: "text-sm text-gray-400 mb-4",
                                     children: item.release_date || item.first_air_date
                                 }, void 0, false, {
                                     fileName: "[project]/components/Dashboard/Details.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 98,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-base leading-relaxed text-gray-200",
+                                    className: "text-sm sm:text-base leading-relaxed text-gray-200",
                                     children: item.overview
                                 }, void 0, false, {
                                     fileName: "[project]/components/Dashboard/Details.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 103,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex gap-4 mt-6",
+                                    className: "flex flex-wrap gap-4 mt-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "bg-white text-black px-6 py-2 rounded font-semibold hover:bg-red-600",
+                                            className: "   bg-white text-black   px-6 py-2   rounded font-semibold   hover:bg-red-600 hover:text-white   transition   ",
                                             children: "▶ Play"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Dashboard/Details.tsx",
-                                            lineNumber: 83,
+                                            lineNumber: 109,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "bg-gray-700 text-white px-6 py-2 rounded hover:bg-gray-600",
+                                            className: "   bg-gray-700 text-white   px-6 py-2   rounded   hover:bg-gray-600   transition   ",
                                             onClick: ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$myList$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addToMyList"])(item),
                                             children: "+ My List"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Dashboard/Details.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 121,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Dashboard/Details.tsx",
-                                    lineNumber: 82,
+                                    lineNumber: 108,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Dashboard/Details.tsx",
-                            lineNumber: 65,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Dashboard/Details.tsx",
-                    lineNumber: 49,
+                    lineNumber: 61,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -262,53 +262,54 @@ const Gems = ({ name })=>{
             setHoveredItem(null);
         }, 150);
     };
+    const isDesktop = ()=>window.innerWidth >= 768;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-full relative",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "px-6 sm:px-10 md:px-20 mb-2",
+                        className: "px-4 sm:px-10 md:px-20 mb-2",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "text-2xl font-bold text-white flex items-center gap-2",
+                            className: "text-xl sm:text-2xl font-bold text-white flex items-center gap-2",
                             children: [
                                 name,
                                 " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaAngleRight"], {}, void 0, false, {
                                     fileName: "[project]/components/Dashboard/Gems.tsx",
-                                    lineNumber: 57,
+                                    lineNumber: 59,
                                     columnNumber: 20
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Dashboard/Gems.tsx",
-                            lineNumber: 56,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/components/Dashboard/Gems.tsx",
-                        lineNumber: 55,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative px-6 sm:px-10 md:px-20 group",
+                        className: "relative px-4 sm:px-10 md:px-20",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: ()=>scrollRef.current?.scrollBy({
                                         left: -CARD_WIDTH,
                                         behavior: "smooth"
                                     }),
-                                className: "hidden md:flex absolute left-5 top-1/2 -translate-y-1/2 z-40   bg-black/60 text-white p-2 rounded-full   opacity-0 group-hover:opacity-100 transition",
+                                className: "   absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-40   bg-black/70 text-white p-2 rounded-full   ",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaChevronLeft"], {
-                                    size: 22
+                                    size: 20
                                 }, void 0, false, {
                                     fileName: "[project]/components/Dashboard/Gems.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 78,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/components/Dashboard/Gems.tsx",
-                                lineNumber: 64,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -316,35 +317,40 @@ const Gems = ({ name })=>{
                                         left: CARD_WIDTH,
                                         behavior: "smooth"
                                     }),
-                                className: "hidden md:flex absolute right-5 top-1/2 -translate-y-1/2 z-40   bg-black/60 text-white p-2 rounded-full   opacity-0 group-hover:opacity-100 transition",
+                                className: "   absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-40   bg-black/70 text-white p-2 rounded-full   ",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaChevronRight"], {
-                                    size: 22
+                                    size: 20
                                 }, void 0, false, {
                                     fileName: "[project]/components/Dashboard/Gems.tsx",
-                                    lineNumber: 90,
+                                    lineNumber: 94,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/components/Dashboard/Gems.tsx",
-                                lineNumber: 79,
+                                lineNumber: 82,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 ref: scrollRef,
-                                className: "flex gap-4 py-10 overflow-x-hidden",
+                                className: "   flex gap-3 sm:gap-4   py-6 sm:py-10   overflow-hidden   scroll-smooth   ",
                                 children: movies.map((item)=>{
                                     const imagePath = IMAGE_BASE && (item.backdrop_path || item.poster_path) ? `${IMAGE_BASE}${item.backdrop_path || item.poster_path}` : "/placeholder.jpg";
                                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-[250px] flex-shrink-0",
+                                        className: "w-[170px] sm:w-[220px] md:w-[250px] flex-shrink-0 cursor-pointer",
                                         onMouseEnter: (e)=>{
+                                            if (!isDesktop()) return;
                                             if (hoverTimeout.current) clearTimeout(hoverTimeout.current);
                                             setIsHovering(true);
                                             setHoveredItem(item);
                                             setHoverRect(e.currentTarget.getBoundingClientRect());
                                         },
-                                        onMouseLeave: closeHover,
+                                        onMouseLeave: ()=>{
+                                            if (!isDesktop()) return;
+                                            closeHover();
+                                        },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "relative h-[140px] w-[240px] rounded-md overflow-hidden bg-black",
+                                            className: "   relative   h-[95px] sm:h-[120px] md:h-[140px]   w-full   rounded-md   overflow-hidden   bg-black   ",
+                                            onClick: ()=>setSelectedItem(item),
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 src: imagePath,
                                                 alt: item.title || item.name || "TMDB item",
@@ -352,35 +358,35 @@ const Gems = ({ name })=>{
                                                 className: "object-cover"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Dashboard/Gems.tsx",
-                                                lineNumber: 120,
+                                                lineNumber: 143,
                                                 columnNumber: 21
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/components/Dashboard/Gems.tsx",
-                                            lineNumber: 119,
+                                            lineNumber: 132,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, item.id, false, {
                                         fileName: "[project]/components/Dashboard/Gems.tsx",
-                                        lineNumber: 105,
+                                        lineNumber: 114,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0));
                                 })
                             }, void 0, false, {
                                 fileName: "[project]/components/Dashboard/Gems.tsx",
-                                lineNumber: 94,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Dashboard/Gems.tsx",
-                        lineNumber: 62,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Dashboard/Gems.tsx",
-                lineNumber: 53,
+                lineNumber: 55,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             hoveredItem && hoverRect && isHovering && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createPortal"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -389,7 +395,7 @@ const Gems = ({ name })=>{
                     left: hoverRect.left,
                     width: hoverRect.width
                 },
-                className: "fixed z-[9999] bg-[#181818] rounded-lg shadow-2xl scale-110",
+                className: "fixed z-[9999] bg-[#181818] rounded-lg shadow-2xl scale-110 hidden md:block",
                 onMouseEnter: ()=>{
                     if (hoverTimeout.current) clearTimeout(hoverTimeout.current);
                     setIsHovering(true);
@@ -406,12 +412,12 @@ const Gems = ({ name })=>{
                             className: "object-cover"
                         }, void 0, false, {
                             fileName: "[project]/components/Dashboard/Gems.tsx",
-                            lineNumber: 158,
+                            lineNumber: 181,
                             columnNumber: 15
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/components/Dashboard/Gems.tsx",
-                        lineNumber: 154,
+                        lineNumber: 177,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -422,7 +428,7 @@ const Gems = ({ name })=>{
                                 children: hoveredItem.title || hoveredItem.name
                             }, void 0, false, {
                                 fileName: "[project]/components/Dashboard/Gems.tsx",
-                                lineNumber: 172,
+                                lineNumber: 195,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -432,24 +438,24 @@ const Gems = ({ name })=>{
                                         className: "bg-white text-black p-2 rounded-full",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaPlayCircle"], {}, void 0, false, {
                                             fileName: "[project]/components/Dashboard/Gems.tsx",
-                                            lineNumber: 178,
+                                            lineNumber: 201,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/components/Dashboard/Gems.tsx",
-                                        lineNumber: 177,
+                                        lineNumber: 200,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         className: "bg-gray-700 p-2 rounded-full",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ci$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CiBoxList"], {}, void 0, false, {
                                             fileName: "[project]/components/Dashboard/Gems.tsx",
-                                            lineNumber: 182,
+                                            lineNumber: 205,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/components/Dashboard/Gems.tsx",
-                                        lineNumber: 181,
+                                        lineNumber: 204,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -463,30 +469,30 @@ const Gems = ({ name })=>{
                                         },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaBookmark"], {}, void 0, false, {
                                             fileName: "[project]/components/Dashboard/Gems.tsx",
-                                            lineNumber: 199,
+                                            lineNumber: 222,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/components/Dashboard/Gems.tsx",
-                                        lineNumber: 185,
+                                        lineNumber: 208,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Dashboard/Gems.tsx",
-                                lineNumber: 176,
+                                lineNumber: 199,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Dashboard/Gems.tsx",
-                        lineNumber: 171,
+                        lineNumber: 194,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Dashboard/Gems.tsx",
-                lineNumber: 139,
+                lineNumber: 162,
                 columnNumber: 11
             }, ("TURBOPACK compile-time value", void 0)), document.body),
             selectedItem && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Dashboard$2f$Details$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -494,7 +500,7 @@ const Gems = ({ name })=>{
                 onClose: ()=>setSelectedItem(null)
             }, void 0, false, {
                 fileName: "[project]/components/Dashboard/Gems.tsx",
-                lineNumber: 209,
+                lineNumber: 232,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -666,7 +672,7 @@ const Home = ()=>{
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative bg-black/60 z-10",
+                className: "relative bg-black/60 z-10 pt-12 pb-24 md:pb-32 sm:pb-40 ",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Dashboard$2f$Gems$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         name: "Gems for you"

@@ -81,7 +81,7 @@ const Home = () => {
       </div>
 
       {/* 🔥 COLLECTION ROWS (NORMAL FLOW) */}
-      <div className="relative bg-black/60 z-10">
+      <div className="relative bg-black/60 z-10 pt-12 pb-24 md:pb-32 sm:pb-40 ">
         <Collectio name="Gems for you" />
         <Collectio name="Trending Now" />
         <Collectio name="Top Rated" />

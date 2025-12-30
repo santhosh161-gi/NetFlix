@@ -69,15 +69,12 @@ const IMAGE_BASE = ("TURBOPACK compile-time value", "https://image.tmdb.org/t/p/
 const Details = ({ tvshow, onClose })=>{
     _s();
     const modalRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const closeButtonRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    // ✅ ESC key close
+    // ESC key close
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Details.useEffect": ()=>{
             const handleEsc = {
                 "Details.useEffect.handleEsc": (e)=>{
-                    if (e.key === "Escape") {
-                        onClose();
-                    }
+                    if (e.key === "Escape") onClose();
                 }
             }["Details.useEffect.handleEsc"];
             document.addEventListener("keydown", handleEsc);
@@ -90,17 +87,16 @@ const Details = ({ tvshow, onClose })=>{
     ]);
     if (!tvshow.poster_path) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "fixed inset-0 z-[10000] bg-black/80 flex items-center justify-center ",
+        className: "fixed inset-0 z-[10000] bg-black/80 flex items-center justify-center px-2 sm:px-6",
         onClick: onClose,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             ref: modalRef,
-            className: "relative w-[80%] h-[80%] bg-[#181818] rounded-lg p-4",
             onClick: (e)=>e.stopPropagation(),
+            className: "   relative   w-full sm:w-[90%] lg:w-[80%]   max-h-[90vh]   bg-[#181818]   rounded-lg   overflow-y-auto   ",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    ref: closeButtonRef,
                     onClick: onClose,
-                    className: "absolute top-4 right-4 text-2xl font-bold text-white hover:scale-110 transition",
+                    className: "   absolute top-4 right-4   text-2xl font-bold text-white   hover:scale-110 transition   z-10   ",
                     children: "✕"
                 }, void 0, false, {
                     fileName: "[project]/components/Shows/Details.tsx",
@@ -108,103 +104,103 @@ const Details = ({ tvshow, onClose })=>{
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full h-full flex flex-row gap-6 px-6",
+                    className: "   flex flex-col lg:flex-row   gap-6   p-4 sm:p-6   ",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative w-[300px] h-full flex-shrink-0",
+                            className: "   relative   w-full sm:w-[260px] lg:w-[300px]   h-[380px] sm:h-[420px] lg:h-[500px]   mx-auto   flex-shrink-0   ",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: `${IMAGE_BASE}${tvshow.poster_path}`,
-                                alt: tvshow.name || "TV Show",
+                                alt: tvshow.title || tvshow.name || "TV Show",
                                 fill: true,
                                 className: "object-contain rounded-lg"
                             }, void 0, false, {
                                 fileName: "[project]/components/Shows/Details.tsx",
-                                lineNumber: 61,
-                                columnNumber: 5
+                                lineNumber: 79,
+                                columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/Shows/Details.tsx",
-                            lineNumber: 60,
-                            columnNumber: 3
+                            lineNumber: 70,
+                            columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex-1 flex flex-col justify-start text-white px-4 mt-10",
+                            className: "flex-1 text-white lg:mt-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl font-bold mb-2",
+                                    className: "text-2xl sm:text-3xl lg:text-4xl font-bold mb-2",
                                     children: tvshow.title || tvshow.name || "TV Show"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Shows/Details.tsx",
-                                    lineNumber: 72,
-                                    columnNumber: 5
+                                    lineNumber: 90,
+                                    columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-gray-300 mb-4",
-                                    children: tvshow.release_date || tvshow.first_air_date
+                                    className: "text-sm text-gray-400 mb-4",
+                                    children: tvshow.release_date || tvshow.first_air_date || "Unknown date"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Shows/Details.tsx",
-                                    lineNumber: 77,
-                                    columnNumber: 5
+                                    lineNumber: 95,
+                                    columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-base leading-relaxed text-gray-200",
+                                    className: "text-sm sm:text-base leading-relaxed text-gray-200",
                                     children: tvshow.overview
                                 }, void 0, false, {
                                     fileName: "[project]/components/Shows/Details.tsx",
-                                    lineNumber: 82,
-                                    columnNumber: 5
+                                    lineNumber: 100,
+                                    columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex gap-4 mt-6",
+                                    className: "flex flex-wrap gap-4 mt-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "bg-white text-black px-6 py-2 rounded font-semibold hover:bg-red-600",
+                                            className: "   bg-white text-black   px-6 py-2   rounded font-semibold   hover:bg-red-600 hover:text-white   transition   ",
                                             children: "▶ Play"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Shows/Details.tsx",
-                                            lineNumber: 88,
-                                            columnNumber: 7
+                                            lineNumber: 106,
+                                            columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "bg-gray-700 text-white px-6 py-2 rounded hover:bg-gray-600",
                                             onClick: ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$myList$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addToMyList"])(tvshow),
+                                            className: "   bg-gray-700 text-white   px-6 py-2   rounded   hover:bg-gray-600   transition   ",
                                             children: "+ My List"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Shows/Details.tsx",
-                                            lineNumber: 91,
-                                            columnNumber: 7
+                                            lineNumber: 118,
+                                            columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Shows/Details.tsx",
-                                    lineNumber: 87,
-                                    columnNumber: 5
+                                    lineNumber: 105,
+                                    columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Shows/Details.tsx",
-                            lineNumber: 70,
-                            columnNumber: 3
+                            lineNumber: 88,
+                            columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Shows/Details.tsx",
-                    lineNumber: 58,
-                    columnNumber: 8
+                    lineNumber: 62,
+                    columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/components/Shows/Details.tsx",
-            lineNumber: 43,
+            lineNumber: 36,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/components/Shows/Details.tsx",
-        lineNumber: 39,
+        lineNumber: 32,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
-_s(Details, "mZv4gTMiYzMoPpsUSChIX1brKW4=");
+_s(Details, "iXNJws+mDn9J+ZcpHudMXHGV85c=");
 _c = Details;
 const __TURBOPACK__default__export__ = Details;
 var _c;
