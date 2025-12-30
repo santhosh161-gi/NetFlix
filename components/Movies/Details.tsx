@@ -117,7 +117,11 @@ const Details = ({ item, onClose }: DetailsProps) => {
               </button>
 
               <button
-                onClick={() => addToMyList(item)}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  addToMyList(item);
+                  onClose();
+                }}  
                 className="
                   bg-gray-700 text-white
                   px-6 py-2

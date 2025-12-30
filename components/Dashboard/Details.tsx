@@ -126,7 +126,11 @@ const Details = ({ item, onClose }: Props) => {
                   hover:bg-gray-600
                   transition
                 "
-                onClick={() => addToMyList(item)}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  addToMyList(item);
+                  onClose();
+                }}
               >
                 + My List
               </button>

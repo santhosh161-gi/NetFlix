@@ -43,6 +43,8 @@ const Details = ({
           bg-[#181818]
           rounded-lg
           overflow-y-auto
+          overflow-x-hidden
+
         "
       >
         {/* CLOSE BUTTON */}
@@ -116,7 +118,11 @@ const Details = ({
               </button>
 
               <button
-                onClick={() => addToMyList(tvshow)}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  addToMyList(tvshow);
+                  onClose();
+                }}
                 className="
                   bg-gray-700 text-white
                   px-6 py-2
@@ -136,3 +142,4 @@ const Details = ({
 };
 
 export default Details;
+  
